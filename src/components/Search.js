@@ -16,6 +16,10 @@ class Search extends React.Component {
     });
   }
 
+  componentDidMount() {
+    this.props.handleSearchInputChange('cats');
+  }
+
   render() {
     return (
       <div className="search-bar form-inline">
