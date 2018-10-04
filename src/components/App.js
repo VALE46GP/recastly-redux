@@ -7,7 +7,7 @@ import VideoList from './VideoList.js';
 import changeVideo from '../actions/currentVideo.js';
 import changeVideoList from '../actions/videoList.js';
 import exampleVideoData from '../data/exampleVideoData.js';
-// import store from '../store/store.js';
+import store from '../store/store.js';
 import SearchContainer from '../containers/SearchContainer.js'
 
 export default class App extends React.Component {
@@ -20,9 +20,9 @@ export default class App extends React.Component {
     // };
   }
 
-  componentDidMount() {
-    this.getYouTubeVideos('react tutorials');
-  }
+  // componentDidMount() {
+  //   this.getYouTubeVideos('react tutorials');
+  // }
 
   // handleVideoListEntryTitleClick(video) {
   //   this.setState({currentVideo: video});

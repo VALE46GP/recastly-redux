@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import VideoList from './../components/VideoList.js';
 import changeVideo from './../actions/currentVideo.js';
-// import store from '../store/store.js';
+import store from '../store/store.js';
 
 
 var mapStateToProps = (state) => ({

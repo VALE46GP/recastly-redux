@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import VideoPlayer from '../components/VideoPlayer.js';
-// import store from '../store/store.js';
+import store from '../store/store.js';
 
 
 var mapStateToProps = (state) => ({
