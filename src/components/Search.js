@@ -17,7 +17,7 @@ class Search extends React.Component {
   }
 
   componentDidMount() {
-    this.props.handleSearchInputChange('cats');
+    this.props.handleSearchInputChange('cats', true);
   }
 
   render() {
