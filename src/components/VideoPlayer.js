@@ -1,5 +1,4 @@
 import React from 'react';
-//import store from '../store/store.js';
 
 
 var VideoPlayer = ({video}) => (
@@ -16,8 +15,6 @@ var VideoPlayer = ({video}) => (
     </div>
 );
 
-// PropTypes tell other developers what `props` a component expects
-// Warnings will be shown in the console when the defined rules are violated
 VideoPlayer.propTypes = {
   video: React.PropTypes.object.isRequired
 };
